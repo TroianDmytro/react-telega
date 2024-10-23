@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-telega/static/css/main.f855e6bc.css",
+    "main.js": "/react-telega/static/js/main.e137beb0.js",
+    "static/js/453.414d7b06.chunk.js": "/react-telega/static/js/453.414d7b06.chunk.js",
+    "index.html": "/react-telega/index.html",
+    "main.f855e6bc.css.map": "/react-telega/static/css/main.f855e6bc.css.map",
+    "main.e137beb0.js.map": "/react-telega/static/js/main.e137beb0.js.map",
+    "453.414d7b06.chunk.js.map": "/react-telega/static/js/453.414d7b06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e137beb0.js"
+  ]
+}
