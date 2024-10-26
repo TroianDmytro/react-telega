@@ -23,7 +23,8 @@ const MainPage: FC = () => {
   useEffect(() => {
     const getAllUsers = async () => {
       try {
-        const result = await axios.get("http://localhost:5265/api");
+        // const result = await axios.get("http://localhost:5107/api");
+        const result = await axios.get("https://ironfalcon.somee.com/api");
         setListUsers(result.data);
       }
       catch (err) {
@@ -54,7 +55,12 @@ const MainPage: FC = () => {
 
   const handleOnClickSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     try {
-      const response = await axios.post('http://localhost:5265/white_list/', value, {
+      // const response = await axios.post('http://localhost:5107/white_list/', value, {
+      //   headers: {
+      //     "Content-Type": "application/json"
+      //   }
+      // });
+      const response = await axios.post('https://ironfalcon.somee.com/white_list/', value, {
         headers: {
           "Content-Type": "application/json"
         }

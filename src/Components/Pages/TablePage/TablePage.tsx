@@ -76,7 +76,8 @@ const TablePage: FC = () => {
    useEffect(()=>{
       const getInfoIntoTable = async ()=>{
          try{
-            const result = await axios.get("http://localhost:5265/api/get_all_survey_data")
+            // const result = await axios.get("http://localhost:5107/api/get_all_survey_data")
+            const result = await axios.get("https://ironfalcon.somee.com/api/get_all_survey_data")
             console.log(result.data);
             setListPolling(result.data);
          }
